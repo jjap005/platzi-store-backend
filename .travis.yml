@@ -15,10 +15,10 @@ script:
   - yarn test
 
 notifications:
-  slack: $SLACK_CHANNEL
+  slack: jjap:Vd2IIAA2LKKdILElAGrrYxSJ
   email:
-    recipients:
-      - $EMAIL_NOTIFICATION
+    reciepients:
+    - juniorjose.aguilarparra@gmail.com
     on_success: always
     on_failure: always
 
